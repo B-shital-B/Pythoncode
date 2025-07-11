@@ -1,0 +1,8 @@
+percentage = (total / 500) * 100
+
+print("\n---- Student Result ----")
+print(f"Name     : {name}")
+print(f"Roll No  : {roll_no}")
+for subject, score in scores.items():
+    print(f"{subject:13}: {score}")
+print(f"Percentage : {percentage:.2f}%")
